@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <PackageId>Novolis.Http.Documents</PackageId>
+    <RootNamespace>Novolis.Http.Documents</RootNamespace>
+    <Description>Presentation-free HTTP request documents and scoped environments.</Description>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <IsPackable>true</IsPackable>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Novolis.Http.Authentication/Novolis.Http.Authentication.csproj" />
+    <Project Path="src/Novolis.Http.Client/Novolis.Http.Client.csproj" />
+    <Project Path="src/Novolis.Http.Documents/Novolis.Http.Documents.csproj" />
+    <Project Path="src/Novolis.Http.Variables/Novolis.Http.Variables.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Novolis.Http.Unit/Novolis.Http.Unit.csproj" />
+  </Folder>
+</Solution>

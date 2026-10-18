@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <PackageId>Novolis.Http.Authentication</PackageId>
+    <RootNamespace>Novolis.Http.Authentication</RootNamespace>
+    <Description>DelegatingHandler authentication for named Novolis HTTP clients.</Description>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <IsPackable>true</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Caching.Memory" />
+    <PackageReference Include="Microsoft.Extensions.Http" />
+    <PackageReference Include="Microsoft.Extensions.Options" />
+    <ProjectReference Include="..\Novolis.Http.Client\Novolis.Http.Client.csproj" />
+  </ItemGroup>
+</Project>

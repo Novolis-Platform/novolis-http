@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <PackageId>Novolis.Http.Variables</PackageId>
+    <RootNamespace>Novolis.Http.Variables</RootNamespace>
+    <Description>Asynchronous variable resolution for Novolis HTTP request documents.</Description>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <IsPackable>true</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Novolis.Http.Documents\Novolis.Http.Documents.csproj" />
+  </ItemGroup>
+</Project>

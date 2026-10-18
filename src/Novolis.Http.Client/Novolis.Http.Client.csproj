@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <PackageId>Novolis.Http.Client</PackageId>
+    <RootNamespace>Novolis.Http.Client</RootNamespace>
+    <Description>Named HttpClient registration and document send helpers for IHttpClientFactory.</Description>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <IsPackable>true</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Http" />
+    <ProjectReference Include="..\Novolis.Http.Documents\Novolis.Http.Documents.csproj" />
+    <ProjectReference Include="..\Novolis.Http.Variables\Novolis.Http.Variables.csproj" />
+  </ItemGroup>
+</Project>
